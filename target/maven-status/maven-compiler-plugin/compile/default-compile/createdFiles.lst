@@ -1,0 +1,8 @@
+com\angularboot\mediashop\config\AppConfig.class
+com\angularboot\mediashop\MediaShopApplication.class
+com\angularboot\mediashop\controller\MediaController.class
+com\angularboot\mediashop\model\Item.class
+com\angularboot\mediashop\dao\MediaShopDAOImpl.class
+com\angularboot\mediashop\service\MediaShopServiceImpl.class
+com\angularboot\mediashop\dao\MediaShopDAO.class
+com\angularboot\mediashop\service\MediaShopService.class
