@@ -11,7 +11,7 @@ import com.angularboot.mediashop.model.Item;
 import com.angularboot.mediashop.service.MediaShopService;
 
 @RestController
-@CrossOrigin(origins = "https://media-shop-23c9a.firebaseapp.com/")
+@CrossOrigin(origins = "http://localhost:4200")
 public class MediaController {
 	
 	@Autowired
