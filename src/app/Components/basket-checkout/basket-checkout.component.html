@@ -1,0 +1,28 @@
+<header>
+    <h2 id = "checkout-header">Checkout</h2>
+</header>
+<div class = "container">
+    <table class = "table table-hover">
+        <tbody>
+            <tr *ngFor = "let item of items">
+                <td>{{itemMap.get(item.id)}}</td>
+                <td>{{item.name}}</td>
+                <td>£{{item.price}}</td>
+                
+                <td>
+                    <button class = "btn btn-outline-danger" type = "submit"  (click) = "deleteItem(item);">X</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">No. of Items: {{noOfItems}}</td>
+                <td colspan = "2">Total Price: £{{totalPrice}}</td>
+            </tr>
+            <tr>
+                <button class = "btn btn-success btn-lg" (click) = "thankYouMessage();">Pay</button>
+            </tr>
+        </tbody>
+    </table>
+    <p *ngIf = "this.display === true && this.noOfItems !== 0">
+        Thank you for your purchase!
+    </p>
+</div>

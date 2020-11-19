@@ -1,0 +1,28 @@
+<div class = "card-body" style="float:left;">
+    <table id = "item-table" class = "table table-hover table-sm" style="float:left;">
+        <thead bgcolor = "#1c7a99">
+            <th scope = "col"></th>
+            <th scope = "col">Title</th>
+            <th scope = "col">Product Description</th>
+            <th scope = "col">Price</th>
+            <th scope = "col"></th>
+        </thead>
+        <tbody>
+            <tr *ngFor = "let item of items;">
+                <td>
+                    <img src = {{item.img}} width = "50" height = "50"/>
+                </td>
+                <td>
+                    <p style = "color:rgb(184, 176, 233);">{{item.name}}</p>
+                </td>
+                    <td>{{item.pDesc}}</td>
+                <td>
+                    <p style = "color:orange;">£{{item.price}}</p>
+                </td>
+                <td align = "center">
+                    <button class = "btn btn-outline-info" type = "submit" (click) = "addItem(item);">Add to basket!</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

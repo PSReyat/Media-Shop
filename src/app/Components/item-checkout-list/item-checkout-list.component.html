@@ -1,0 +1,37 @@
+<app-item-list (addedItem) = "addToBasket($event)"></app-item-list>
+<div class = "card">
+    <table class = "table table-hover table-sm" style="float: right;">
+        <tr>
+            <td align="center">
+                <img src = "assets\shopping_basket.png"/>
+            </td>
+            <td align="center">{{noOfItems}}</td>
+        </tr>
+        <tr>
+            <td id = "item-list" colspan = "2">
+                <table class = "table table-hover">
+                    <tbody *ngFor = "let item of items">
+                        <tr>
+                            <td *ngIf = "itemMap.get(item.id) > 0">{{itemMap.get(item.id)}}</td>
+                            <td>{{item.name}}</td>
+                            <td>£{{item.price}}</td>
+                            <td>
+                                <button class = "btn btn-outline-danger btn-sm" type = "submit" (click) = "deleteItem(item)">X</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td id = "basket-total">Basket Total:</td>
+            <td>£{{totalPrice}}</td>
+        </tr>
+        <tr>
+            <td colspan="2" align = "center">
+                <button class = "btn btn-outline-success btn-sm" type = "submit" style = "width:100%" (click) = "onCheckout()">Checkout</button>
+            </td>
+        </tr>
+        
+    </table>
+</div>

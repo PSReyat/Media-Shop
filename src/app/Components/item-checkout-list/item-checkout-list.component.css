@@ -1,0 +1,37 @@
+.card{
+    width:fit-content; 
+    float:right; 
+    padding-top:20px; 
+    background: #151a30;
+    padding: 0px;
+
+}
+
+.table-bordered, p{
+    color:lime;
+    font: bolder;
+}
+
+.table-hover {
+    background: #151a30;
+    width: fit-content;
+    height: fit-content;
+    border-collapse: collapse;
+}
+
+.table-hover, td{
+    padding: 5px;
+    margin:0;
+}
+
+.table-hover, tr{
+    padding: 0px
+}
+
+#basket-total{
+    color: yellow;
+}
+
+#item-list{
+    padding: 0px;
+}
