@@ -79,7 +79,7 @@ export class ItemService {
   }
 }
 ```
--[HTML for the mini-basket](https://github.com/PSReyat/Media-Shop/tree/master/src/app/Components/item-checkout-list)
+-[HTML for the mini-basket in item list page](https://github.com/PSReyat/Media-Shop/tree/master/src/app/Components/item-checkout-list)
 ```
   
 <app-item-list (addedItem) = "addToBasket($event)"></app-item-list>
