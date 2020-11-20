@@ -3,7 +3,7 @@ An e-commerce website I created using Spring Boot, Angular and MySQL database.
 ## Motivation
 Intrigued by web development, I wanted to try to create an interface that implemented a Spring Boot backend to emulate a website like Amazon where you can click 'Add to Basket' and a mini-basket in the corner will update automatically.
 ## How it looks and works
-![Alt Text](https://giphy.com/gifs/eyzJKlN4X3PkpuQBXd/html5)
+![Alt Text](https://media.giphy.com/media/eyzJKlN4X3PkpuQBXd/giphy.gif)
 ## Quick links to code
 - [Java/Spring Code](https://github.com/PSReyat/Media-Shop/tree/master/src/main/java/com/angularboot/mediashop)
 - [TypeScript/HTML/CSS Code](https://github.com/PSReyat/Media-Shop/tree/master/src/app)
