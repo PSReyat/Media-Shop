@@ -5,8 +5,8 @@ Intrigued by web development, I wanted to try to create an interface that implem
 ## How it looks and works
 ![Alt Text](https://media.giphy.com/media/eyzJKlN4X3PkpuQBXd/giphy.gif)
 ## Quick links to code
-- [Java/Spring Code](https://github.com/PSReyat/Media-Shop/tree/master/src/main/java/com/angularboot/mediashop)
-- [TypeScript/HTML/CSS Code](https://github.com/PSReyat/Media-Shop/tree/master/src/app)
+- [Java/Spring](https://github.com/PSReyat/Media-Shop/tree/master/src/main/java/com/angularboot/mediashop)
+- [TypeScript/HTML/CSS](https://github.com/PSReyat/Media-Shop/tree/master/src/app)
 ## Technologies/Frameworks used
 **Built with**
 - Spring Boot
