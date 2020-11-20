@@ -1,5 +1,5 @@
 # Media Shop
-An e-commerce website I created using Spring Boot, Angular and MySQL database.
+An e-commerce website I created using Spring Boot, Angular and a MySQL database.
 ## Motivation
 Intrigued by web development, I wanted to try to create an interface that implemented a Spring Boot backend to emulate a website like Amazon where you can click 'Add to Basket' and a mini-basket in the corner will update automatically.
 ## How it looks and works
