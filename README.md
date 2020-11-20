@@ -10,11 +10,11 @@ Intrigued by web development, I wanted to try to create an interface that implem
 ## Technologies/Frameworks used
 **Built with**
 - Spring Boot
- - Hibernate
- - JDBC
- - JPA
+  - Hibernate
+  - JDBC
+  - JPA
 - Angular
- - Nebular themes
+  - Nebular themes
 - MySQL
 ## Code snippets
 - [Spring Controller](https://github.com/PSReyat/Media-Shop/blob/master/src/main/java/com/angularboot/mediashop/controller/MediaController.java)
