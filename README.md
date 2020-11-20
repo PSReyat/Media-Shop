@@ -5,5 +5,5 @@ Intrigued by web development, I wanted to try to create an interface that implem
 ## How it looks and works
 ![Alt Text](https://media.giphy.com/media/mjMJ0OiuoDgOCW1K6k/giphy.gif)
 ## Links to code
--[Java/Spring Code](https://github.com/PSReyat/Media-Shop/tree/master/src/main/java/com/angularboot/mediashop)
--[TypeScript/HTML/CSS Code](https://github.com/PSReyat/Media-Shop/tree/master/src/app)
+- [Java/Spring Code](https://github.com/PSReyat/Media-Shop/tree/master/src/main/java/com/angularboot/mediashop)
+- [TypeScript/HTML/CSS Code](https://github.com/PSReyat/Media-Shop/tree/master/src/app)
