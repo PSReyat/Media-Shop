@@ -13,6 +13,7 @@ Intrigued by web development, I wanted to try to create an interface that implem
   - Hibernate
   - JDBC
   - JPA
+  - Maven
 - Angular
   - Nebular themes
   - Bootstrap 4
