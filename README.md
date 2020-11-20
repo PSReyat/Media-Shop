@@ -15,6 +15,7 @@ Intrigued by web development, I wanted to try to create an interface that implem
   - JPA
 - Angular
   - Nebular themes
+  - Bootstrap 4
 - MySQL
 ## Code snippets
 - [Spring Controller](https://github.com/PSReyat/Media-Shop/blob/master/src/main/java/com/angularboot/mediashop/controller/MediaController.java)
