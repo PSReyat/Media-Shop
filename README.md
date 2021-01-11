@@ -18,6 +18,10 @@ Intrigued by web development, I wanted to try to create a user interface that im
   - Nebular themes
   - Bootstrap 4
 - MySQL
+## IDEs
+- Eclipse
+- Visual Studio Code
+- MySQL Workbench
 ## Code snippets
 - [Spring Controller](https://github.com/PSReyat/Media-Shop/blob/master/src/main/java/com/angularboot/mediashop/controller/MediaController.java)
 
